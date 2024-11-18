@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escape from Tarkov - Interaktywna Mapa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Escape from Tarkov - Interaktywna Mapa</h1>
+    <p>Kliknij na lokalizację, aby dowiedzieć się więcej!</p>
+  </header>
+
+  <section class="map-container">
+    <img src="Map.jpg" alt="Mapa Tarkov" class="map" id="tarkov-map">
+
+    <div class="location" id="location1" style="top: 20.27%; left: 67.25%;" data-location="1"></div>
+    <div class="location" id="location2" style="top: 53.45%; left: 52.5%;" data-location="2"></div>
+    <div class="location" id="location3" style="top: 62.7%; left: 63.875%;" data-location="3"></div>
+    <div class="location" id="location4" style="top: 33.57%; left: 43.75%;" data-location="4"></div>
+    <div class="location" id="location5" style="top: 48.39%; left: 44.75%;" data-location="5"></div>
+    <div class="location" id="location6" style="top: 57.68%; left: 34.125%;" data-location="6"></div>
+    <div class="location" id="location7" style="top: 54.63%; left: 10.625%;" data-location="7"></div>
+  </section>
+
+  <div class="left-image">
+    <img src="killa1.png" alt="Killa Left" />
+  </div>
+
+  <div class="right-image">
+    <img src="killa.png" alt="Killa Right" />
+  </div>
+
+  <section id="guide-popup" class="guide-popup">
+    <div class="guide-popup-content">
+      <span class="close-btn" id="close-btn">&times;</span>
+      <h2 id="guide-title">
+       
+        <a href="#" target="_blank" id="guide-link-title">Lokalizacja</a>
+      </h2>
+      <p id="guide-description">Opis lokalizacji...</p>
+      <a id="guide-link" href="#" target="_blank" style="display: none;">Zobacz więcej</a> 
+    </div>
+  </section>
+
+  <footer>
+    <p>Escape from Tarkov &copy; 2024. Wszystkie prawa zastrzeżone.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
