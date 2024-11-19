@@ -118,4 +118,9 @@
   filter: drop-shadow(5px 5px 10px  #000000);
 
 }
- 
+
+@media screen only and (max-width:600px){
+    .left-image,.right-image {
+        display:none;
+    }
+}
